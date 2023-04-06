@@ -11,30 +11,29 @@ def streamlit_style():
     st.markdown('<style> div.block-container{padding-top:0rem;} </style>', unsafe_allow_html=True)
 
     st.markdown("""
-                <style>
-                #MainMenu {visibility: hidden;}
-                footer {visibility: hidden;}
-                header {visibility: hidden;}
-                </style>
+                    <style>
+                        #MainMenu {visibility: hidden;}
+                        footer {visibility: hidden;}
+                        header {visibility: hidden;}
+                    </style>
                 """, unsafe_allow_html=True)
 
-    # st.markdown("""
-    #                 .css-1aumxhk{
-    #                                 background-color: #011839;
-    #                                 background-image: none;
-    #                                 color: #ffffff
-    #                             }
-    #             """, unsafe_allow_html=True)
+    st.markdown("""
+                    <style>
+                        [data-testid=stSidebar] {
+                            background-color: #ff000050;
+                        }
+                    </style>
+                """, unsafe_allow_html=True)
 
     hvar = """
-    
-            <script>
-            
-                var elements = window.parents.document.querySelectorAll('.streamlit-expanderHeader')
-                elements[0].style.color = 'rgba(83, 36, 118, 1)';
-                elements[0].style.fontFamily = 'Didot';
-                elements[0].style.fontStyle = 'x-large';
-                elements[0].style.fontWeight = 'bold';
+                <script>
+                
+                    var elements = window.parents.document.querySelectorAll('.streamlit-expanderHeader')
+                    elements[0].style.color = 'rgba(83, 36, 118, 1)';
+                    elements[0].style.fontFamily = 'Didot';
+                    elements[0].style.fontStyle = 'x-large';
+                    elements[0].style.fontWeight = 'bold';
 
-            </script>    
+                </script>    
             """

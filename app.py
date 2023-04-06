@@ -20,10 +20,7 @@ def add_bg_from_local(image_file):
     unsafe_allow_html=True
     )
 
-# add_bg_from_local('bg2.png') 
-
 def home():
-
 	# Add background
 	add_bg_from_local('bg.jpg') 
 

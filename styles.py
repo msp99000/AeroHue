@@ -6,7 +6,7 @@ def streamlit_style():
 
     st.set_option('deprecation.showPyplotGlobalUse', False)
 
-    st.set_page_config(initial_sidebar_state = "collapsed", layout = 'centered', page_icon = 'air.png', page_title = 'AeroHue')
+    st.set_page_config(initial_sidebar_state = "collapsed", layout = 'centered', page_icon = 'icon.png', page_title = 'AeroHue')
 
     st.markdown('<style> div.block-container{padding-top:0rem;} </style>', unsafe_allow_html=True)
 
@@ -17,6 +17,14 @@ def streamlit_style():
                 header {visibility: hidden;}
                 </style>
                 """, unsafe_allow_html=True)
+
+    # st.markdown("""
+    #                 .css-1aumxhk{
+    #                                 background-color: #011839;
+    #                                 background-image: none;
+    #                                 color: #ffffff
+    #                             }
+    #             """, unsafe_allow_html=True)
 
     hvar = """
     

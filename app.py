@@ -83,15 +83,15 @@ def real_time_aqi_monitoring():
 
 
 # Create sidebar with navigation links
-_, col2, _ = st.sidebar.columns([3, 4, 3])
-with col2:
-	st.title("AeroHue")
-	st.write(" ")
-	st.sidebar.image('aerohue-black.png')
+st.sidebar.markdown("<h1 style='color:#000000; text-align: center;'>Navigator</h1>", unsafe_allow_html=True)
+
+st.sidebar.write(" ")
+st.sidebar.image('aerohue-black.png')
 
 st.sidebar.write(" ")
 st.sidebar.write(" ")
-page = st.sidebar.radio("Select a Page ", ("Home", "Air Quality Prediction", "Real-time AQI Monitoring"))
+st.sidebar.markdown("<h1 style='color:#000000; text-align: center;'>Select Page</h1>", unsafe_allow_html=True)
+page = st.sidebar.radio(" ", ("Home", "Air Quality Prediction", "Real-time AQI Monitoring"))
 
 
 # Call appropriate page based on navigation link selection

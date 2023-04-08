@@ -19,7 +19,6 @@ def add_bg_from_local(image_file):
     """,
     unsafe_allow_html=True
     )
-
 def home():
 	# Add background
 	add_bg_from_local('bg.jpg') 
@@ -107,3 +106,4 @@ def main():
 
 if __name__ == "__main__":
 	main()
+	

@@ -1,4 +1,4 @@
-# Omdena Mumbai Chapter - Predicting Air Quality
+# AeroHue - Your Air Ally
 
 
 # Monitoring and Predicting Air Quality using Machine Learning
@@ -7,9 +7,8 @@
 - Moreover, as reported in the NY Times article, India’s Air Pollution Rivals China’s as World’s Deadliest, it has been found that India’s air pollution is deadlier than even China’s.
 - Monitoring it and understanding its quality is of immense importance to our well-being. Using this dataset one can explore India’s air pollution levels at a more granular scale.
 
-## Project webapp: [Click Here](https://aqi-mumbai.streamlit.app/)
+## Project webapp: [Click Here](https://aerohue.streamlit.app/)
 
-## Project presentation: [Click Here](https://docs.google.com/presentation/d/1AOp2xJYvtxUweKX_vwfLT61ANVkfgNEZ_zAxhqbL-pE/edit?usp=sharing)
 
 ## Contribution Guidelines
 - Have a Look at the [project structure](#project-structure) and [folder overview](#folder-overview) below to understand where to store/upload your contribution
